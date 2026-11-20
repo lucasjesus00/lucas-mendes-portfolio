@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfólio de Lucas Mendes, estudante de Engenharia de Software na UDF."
+    />
+
+    <title>Lucas Mendes | Desenvolvedor em formação</title>
+
+    <!-- Fontes utilizadas no projeto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- Grade decorativa usada como plano de fundo -->
+    <div class="background-grid" aria-hidden="true"></div>
+
+    <!-- Cabeçalho e navegação -->
+    <header class="header">
+      <a class="logo" href="#inicio" aria-label="Voltar ao início">
+        &lt;LM<span>/</span>&gt;
+      </a>
+
+      <button
+        class="menu-toggle"
+        id="menuToggle"
+        type="button"
+        aria-label="Abrir menu"
+        aria-controls="navMenu"
+        aria-expanded="false"
+      >
+        ☰
+      </button>
+
+      <nav id="navMenu" aria-label="Navegação principal">
+        <a href="#sobre">Sobre</a>
+        <a href="#formacao">Formação</a>
+        <a href="#tecnologias">Tecnologias</a>
+        <a href="#projetos">Projetos</a>
+        <a class="nav-contact" href="#contato">
+          Contato <span aria-hidden="true">↗</span>
+        </a>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Seção inicial -->
+      <section class="hero section" id="inicio">
+        <div class="hero-content reveal">
+          <p class="eyebrow">
+            <span class="status-dot" aria-hidden="true"></span>
+            DISPONÍVEL PARA APRENDER E CRIAR
+          </p>
+
+          <h1>
+            Olá, eu sou
+            <span class="gradient-text">Lucas Mendes.</span>
+            <br />
+            <span class="muted-heading">Desenvolvedor em formação.</span>
+          </h1>
+
+          <p class="hero-description">
+            Transformando ideias em soluções através da programação. Construindo
+            minha jornada no desenvolvimento de software por meio de projetos,
+            estudos e prática constante.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projetos">
+              Ver meus projetos <span aria-hidden="true">↗</span>
+            </a>
+
+            <a class="button button-outline" href="#sobre">
+              Conheça minha trajetória
+            </a>
+          </div>
+
+          <div class="hero-socials" aria-label="Redes sociais">
+            <a
+              href="https://github.com/lucasjesus00"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub ↗
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/lucas-mendes-831018404"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              LinkedIn ↗
+            </a>
+
+            <a href="mailto:lucasdevmendes@gmail.com">Email ↗</a>
+          </div>
+        </div>
+
+        <!-- Visual de código decorativo -->
+        <div class="hero-visual reveal" aria-label="Exemplo de código">
+          <div class="code-window">
+            <div class="window-top">
+              <div class="window-dots" aria-hidden="true">
+                <i></i>
+                <i></i>
+                <i></i>
+              </div>
+              <span>developer.js</span>
+            </div>
+
+            <pre><code><span class="code-purple">const</span> developer = {
+  <span class="code-blue">name</span>: <span class="code-green">"Lucas Mendes"</span>,
+  <span class="code-blue">course</span>: <span class="code-green">"Engenharia de Software"</span>,
+  <span class="code-blue">institution</span>: <span class="code-green">"UDF"</span>,
+  <span class="code-blue">semester</span>: <span class="code-green">2</span>,
+  <span class="code-blue">focus</span>: [
+    <span class="code-green">"Desenvolvimento Web"</span>,
+    <span class="code-green">"Ruby on Rails"</span>,
+    <span class="code-green">"Aprendizado contínuo"</span>
+  ]
+};
+
+<span class="code-purple">console</span>.log(<span class="code-green">"Construindo o futuro."</span>);</code></pre>
+
+            <div class="code-footer">
+              <span aria-hidden="true">●</span>
+              Tudo começa com uma linha de código.
+            </div>
+          </div>
+
+          <div class="floating-tag tag-top" aria-hidden="true">
+            ⌘ &nbsp; Criatividade
+          </div>
+
+          <div class="floating-tag tag-bottom" aria-hidden="true">
+            ✦ &nbsp; Código + Curiosidade
+          </div>
+        </div>
+
+        <div class="scroll-indicator" aria-hidden="true">
+          SCROLL PARA EXPLORAR <span>↓</span>
+        </div>
+      </section>
+
+      <!-- Sobre mim -->
+      <section class="section about" id="sobre">
+        <div class="section-heading reveal">
+          <p class="eyebrow">01 / SOBRE MIM</p>
+          <h2>
+            Mais do que código,
+            <br />
+            <span class="gradient-text">uma jornada de evolução.</span>
+          </h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-copy reveal">
+            <p>
+              Sou estudante de Engenharia de Software na UDF e desenvolvedor
+              web em formação. Tenho estudado HTML, CSS e JavaScript,
+              construindo projetos práticos para melhorar minhas habilidades em
+              interfaces responsivas e lógica de programação.
+            </p>
+
+            <p>
+              Meu objetivo é consolidar uma base sólida em desenvolvimento
+              web e evoluir constantemente por meio de projetos acadêmicos,
+              desafios pessoais e aprendizado contínuo.
+            </p>
+          </div>
+
+          <article class="about-card reveal">
+            <div class="about-card-icon" aria-hidden="true">⌁</div>
+            <h3>Minha mentalidade</h3>
+            <p>
+              Aprender, praticar, errar, melhorar e repetir. Cada projeto é
+              uma oportunidade de dar um próximo passo.
+            </p>
+
+            <div class="mini-stats">
+              <div>
+                <strong>∞</strong>
+                <span>Curiosidade</span>
+              </div>
+
+              <div>
+                <strong>2º</strong>
+                <span>Semestre</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Formação -->
+      <section class="section education" id="formacao">
+        <div class="section-heading reveal">
+          <p class="eyebrow">02 / FORMAÇÃO</p>
+          <h2>
+            Onde estou aprendendo
+            <br />
+            <span class="gradient-text">e para onde estou indo.</span>
+          </h2>
+        </div>
+
+        <article class="education-card reveal">
+          <div class="education-mark" aria-hidden="true">
+            UDF
+            <br />
+            <span>01</span>
+          </div>
+
+          <div class="education-info">
+            <p class="card-label">FORMAÇÃO ATUAL</p>
+            <h3>Centro Universitário do Distrito Federal — UDF</h3>
+            <p class="course">
+              Engenharia de Software — 2º semestre
+            </p>
+            <p class="education-description">
+              Estudo de fundamentos da programação, desenvolvimento de sistemas,
+              engenharia de software e tecnologias para construção de aplicações.
+            </p>
+          </div>
+
+          <div class="education-status">
+            <span class="status-dot" aria-hidden="true"></span>
+            Em andamento
+          </div>
+        </article>
+      </section>
+
+      <!-- Tecnologias -->
+      <section class="section skills" id="tecnologias">
+        <div class="section-heading reveal">
+          <p class="eyebrow">03 / STACKS</p>
+          <h2>
+            Tecnologias que estou
+            <br />
+            <span class="gradient-text">explorando.</span>
+          </h2>
+          <p class="section-subtitle">
+            Ferramentas que estudo, pratico ou pretendo aprofundar.
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card reveal">
+            <div class="skill-icon">HTML</div>
+            <h3>HTML & CSS</h3>
+            <p>Estrutura e interfaces responsivas.</p>
+            <span class="skill-level">PRATICANDO</span>
+          </article>
+
+          <article class="skill-card reveal">
+            <div class="skill-icon">JS</div>
+            <h3>JavaScript</h3>
+            <p>Interatividade e aplicações web.</p>
+            <span class="skill-level">ESTUDANDO</span>
+          </article>
+
+          <article class="skill-card reveal">
+            <div class="skill-icon">Py</div>
+            <h3>Python</h3>
+            <p>Lógica e fundamentos de programação.</p>
+            <span class="skill-level">ESTUDANDO</span>
+          </article>
+
+          <article class="skill-card reveal">
+            <div class="skill-icon">Rb</div>
+            <h3>Ruby on Rails</h3>
+            <p>Desenvolvimento web e estrutura MVC.</p>
+            <span class="skill-level">ESTUDANDO</span>
+          </article>
+
+          <article class="skill-card reveal">
+            <div class="skill-icon">Git</div>
+            <h3>Git & GitHub</h3>
+            <p>Versionamento e colaboração.</p>
+            <span class="skill-level">PRATICANDO</span>
+          </article>
+
+          <article class="skill-card reveal">
+            <div class="skill-icon">DB</div>
+            <h3>SQL & Banco de dados</h3>
+            <p>Consultas e organização de dados.</p>
+            <span class="skill-level">ESTUDANDO</span>
+          </article>
+        </div>
+      </section>
+
+      <!-- Projetos -->
+      <section class="section projects" id="projetos">
+        <div class="section-heading reveal">
+          <p class="eyebrow">04 / PORTFÓLIO</p>
+          <h2>
+            Projetos que transformam
+            <br />
+            <span class="gradient-text">aprendizado em prática.</span>
+          </h2>
+          <p class="section-subtitle">
+            Projetos pessoais desenvolvidos durante meus estudos.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card reveal">
+            <div class="project-top">
+              <span>01 / WEB</span>
+              <span class="project-arrow" aria-hidden="true">↗</span>
+            </div>
+
+            <div class="project-visual visual-one">
+              <div class="mock-browser">
+                <span></span>
+                <span></span>
+                <span></span>
+
+                <div class="mock-content">
+                  PROJETO ANDROID
+                  <br />
+                  <b>História do mascote</b>
+                </div>
+              </div>
+            </div>
+
+            <h3>Projeto Android</h3>
+            <p>
+              Página responsiva sobre a história do mascote do Android,
+              desenvolvida com HTML e CSS.
+            </p>
+
+            <div class="project-tags">
+              <span>HTML</span>
+              <span>CSS</span>
+            </div>
+
+            <a
+              class="project-link"
+              href="https://github.com/lucasjesus00/projeto-android"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Ver repositório <span aria-hidden="true">↗</span>
+            </a>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-top">
+              <span>02 / WEB</span>
+              <span class="project-arrow" aria-hidden="true">↗</span>
+            </div>
+
+            <div class="project-visual visual-two">
+              <div class="app-shape">
+                <span aria-hidden="true">✳</span>
+                <b>CORDEL</b>
+                <small>POESIA & DESIGN</small>
+              </div>
+            </div>
+
+            <h3>Projeto Cordel</h3>
+            <p>
+              Página inspirada no poema “Cordel Moderno” de Milton Duarte,
+              com foco em layout responsivo.
+            </p>
+
+            <div class="project-tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>Responsivo</span>
+            </div>
+
+            <a
+              class="project-link"
+              href="https://github.com/lucasjesus00/Projeto-Cordel"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Ver repositório <span aria-hidden="true">↗</span>
+            </a>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-top">
+              <span>03 / UI</span>
+              <span class="project-arrow" aria-hidden="true">↗</span>
+            </div>
+
+            <div class="project-visual visual-three">
+              <div class="terminal-art">
+                <p>&gt; usuário conectado</p>
+                <p>&gt; interface carregada</p>
+                <p class="terminal-success">✓ login concluído</p>
+              </div>
+            </div>
+
+            <h3>Projeto Login</h3>
+            <p>
+              Interface de login desenvolvida para praticar HTML, CSS e
+              organização visual.
+            </p>
+
+            <div class="project-tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>Interface</span>
+            </div>
+
+            <a
+              class="project-link"
+              href="https://github.com/lucasjesus00/projeto-login"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Ver repositório <span aria-hidden="true">↗</span>
+            </a>
+          </article>
+        </div>
+      </section>
+
+      <!-- Contato -->
+      <section class="section contact" id="contato">
+        <div class="contact-box reveal">
+          <p class="eyebrow">05 / CONTATO</p>
+
+          <h2>
+            Vamos construir
+            <br />
+            <span class="gradient-text">algo juntos?</span>
+          </h2>
+
+          <p>
+            Estou aberto a conexões, oportunidades, trocas de conhecimento
+            e novos desafios na tecnologia.
+          </p>
+
+          <div class="contact-links">
+            <a
+              href="https://www.linkedin.com/in/lucas-mendes-831018404"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span>LinkedIn</span>
+              <b aria-hidden="true">↗</b>
+            </a>
+
+            <a
+              href="https://github.com/lucasjesus00"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span>GitHub</span>
+              <b aria-hidden="true">↗</b>
+            </a>
+
+            <a href="mailto:lucasdevmendes@gmail.com">
+              <span>Email</span>
+              <b aria-hidden="true">↗</b>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a class="logo" href="#inicio" aria-label="Voltar ao início">
+        &lt;LM<span>/</span>&gt;
+      </a>
+
+      <p>Desenvolvido com curiosidade, café e código.</p>
+
+      <span class="copyright">
+        © <span id="year"></span> Lucas Mendes
+      </span>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
