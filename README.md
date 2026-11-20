@@ -1,4 +1,4 @@
-# Portfólio — Lucas Mendes
+# Portfólio – Lucas Mendes
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
@@ -10,7 +10,7 @@ O projeto está publicado com GitHub Pages:
 
 **https://lucasjesus00.github.io/lucas-mendes-portfolio/**
 
-## ✨ Sobre o projeto
+## 🔍 Sobre o projeto
 
 O site é uma página responsiva construída para apresentar:
 
@@ -30,7 +30,7 @@ O site é uma página responsiva construída para apresentar:
 - Intersection Observer API
 - Git e GitHub
 
-## 📂 Estrutura
+## 📁 Estrutura
 
 ```text
 .
@@ -60,7 +60,7 @@ Não há dependências ou processo de instalação. Para visualizar o projeto:
 
 3. Abra o arquivo `index.html` diretamente no navegador ou utilize a extensão Live Server no VS Code.
 
-## 🎨 Recursos
+## 🖼️ Recursos
 
 - layout totalmente responsivo;
 - tema escuro inspirado em interfaces de desenvolvimento;
@@ -70,18 +70,19 @@ Não há dependências ou processo de instalação. Para visualizar o projeto:
 - atualização automática do ano no rodapé;
 - links externos protegidos com `noopener noreferrer`.
 
-## 📌 Projetos destacados
+## 🌟 Projetos destacados
 
 - [Projeto Android](https://github.com/lucasjesus00/projeto-android)
 - [Projeto Cordel](https://github.com/lucasjesus00/Projeto-Cordel)
 - [Projeto Login](https://github.com/lucasjesus00/projeto-login)
 
-## 👤 Contato
+## 📬 Contato
 
 - GitHub: [lucasjesus00](https://github.com/lucasjesus00)
+- Repositório do projeto: [lucas-mendes-portfolio](https://github.com/lucasjesus00/lucas-mendes-portfolio)
 - LinkedIn: [Lucas Mendes](https://www.linkedin.com/in/lucas-mendes-831018404)
 - E-mail: [lucasdevmendes@gmail.com](mailto:lucasdevmendes@gmail.com)
 
-## 📄 Licença
+## 📜 Licença
 
 Este projeto está licenciado sob a licença MIT. Consulte o arquivo [LICENSE](LICENSE) para mais detalhes.
